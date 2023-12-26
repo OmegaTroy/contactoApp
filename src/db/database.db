@@ -1,0 +1,14 @@
+CREATE DATABASE contactoApp;
+
+use contactos;
+
+CREATE TABLE contacto(
+  id INT(11) NOT NULL AUTO_INCREMENT,
+  nombre VARCHAR(45) DEFAULT NULL,
+  numero INT(10) DEFAULT NULL,
+  PRIMARY KEY (id)
+);
+
+show tables;
+
+DESCRIBE contacto;
